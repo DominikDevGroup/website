@@ -24,8 +24,8 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
-    <link rel="icon" type="image/png" href="img/logo.png">
-    <link rel="stylesheet" href="img/style.css">
+    <link rel="icon" type="image/png" href="logo.png">
+    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.bunny.net/css?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
@@ -34,7 +34,7 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
 
     <!-- Navigáció -->
     <nav class="desktop_navbar">
-        <a href="#"><img class="desktop_navbar_logo_img" src="img/mini_logo.png" alt="logo"></a>
+        <a href="#"><img class="desktop_navbar_logo_img" src="mini_logo.png" alt="logo"></a>
         <?php foreach ($menuItems as $name => $link): ?>
             <a href="<?php echo $link; ?>" class="desktop_navbar_link"><?php echo $name; ?></a>
         <?php endforeach; ?>
@@ -45,7 +45,7 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
 
     <!-- Mobil navigáció -->
     <div class="mobile_navbar">
-        <a href="#" class="mobile_navbar_logo_img_a"><img class="mobile_navbar_logo_img" src="img/mini_logo.png" alt="logo"></a>
+        <a href="#" class="mobile_navbar_logo_img_a"><img class="mobile_navbar_logo_img" src="mini_logo.png" alt="logo"></a>
         <div id="mobile_navbar_links">
             <?php foreach ($menuItems as $name => $link): ?>
                 <a class="mobile_navbar_link scroll" onclick="mobile_navbar_link_hider()" href="<?php echo $link; ?>"><?php echo $name; ?></a>
@@ -69,7 +69,7 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
     <!-- Fő rész -->
     <div class="mainflex">
         <div class="main1">
-            <a class="main1_logo_a" href="#"><img class="main1_logo" src="img/logo.png" alt="logo"></a>
+            <a class="main1_logo_a" href="#"><img class="main1_logo" src="logo.png" alt="logo"></a>
             <div class="main1_description">
                 <a>Próbáltuk a legegyedibbre csinálni a <br></a>
                 <a class="main1_actcent">minecraft szervert!</a>
@@ -96,7 +96,7 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
                 </script>
             </div>
             <a href="#more" class="scroll">
-                <img alt="downarrow" class="main1_downarrow" src="img/downarrow.png">
+                <img alt="downarrow" class="main1_downarrow" src="downarrow.png">
             </a>
         </div>
 
@@ -107,7 +107,7 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
             <div class="main2_features_div">
                 <?php foreach ($servers as $server => $desc): ?>
                     <div class="main2_feature">
-                        <img class="main2_feature_img" alt="Feature Image" src="img/szöveg.png">
+                        <img class="main2_feature_img" alt="Feature Image" src="szöveg.png">
                         <a class="main2_feature_headline"><?php echo $server; ?></a>
                         <a class="main2_feature_text"><?php echo $desc; ?></a>
                     </div>
@@ -143,7 +143,7 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
             <a class="headline">A csapat</a>
             <div class="main5_admin_div">
                 <div class="main5_admins_div main5_admins_dev_type2">
-                    <img class="main5_admins_img" alt="admin member img" src="img/member_placeholder.webp">
+                    <img class="main5_admins_img" alt="admin member img" src="member_placeholder.webp">
                     <div class="main5_admins_description_div">
                         <a class="main5_admins_description_rank main5_admins_description_rank_owner">Tulajdonos</a>
                         <a class="main5_admins_description_title">DomyDev</a>
@@ -151,7 +151,7 @@ $discordLink = "https://discord.gg/aatpPZUe6n"; // Discord meghívó link
                     </div>
                 </div>
                 <div class="main5_admins_div main5_admins_dev_type1">
-                    <img class="main5_admins_img" alt="admin member img" src="img/member_placeholder.webp">
+                    <img class="main5_admins_img" alt="admin member img" src="member_placeholder.webp">
                     <div class="main5_admins_description_div">
                         <a class="main5_admins_description_rank main5_admins_description_rank_admin">Manager</a>
                         <a class="main5_admins_description_title">Anti16</a>
